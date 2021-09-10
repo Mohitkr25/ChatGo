@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80F3DFDF"
+    tools:context=".activities.signupActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/radiusedges"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="chatGo"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/radiusedges"
+            android:src="@drawable/password" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#F3EFEF"
+
+            android:elevation="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/phonelable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="verify +911234567890"
+                android:textAlignment="center"
+                android:textColor="#0C0000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter the otp to Verify your number"
+                android:textAlignment="center"
+                android:textColor="#0E0000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/otpno"
+                android:hint=" Enter Your Otp here -- 123450 "
+                android:textColorHint="@color/black"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:inputType="number"
+
+                />
+
+            <Button
+                android:id="@+id/verifybtn"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rediusendpart"
+                android:text="  verify  "
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
